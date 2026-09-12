@@ -1,5 +1,7 @@
 # Aur OCR Translator
 
+<img width="828" height="494" alt="image" src="https://github.com/user-attachments/assets/f952372f-57b7-4afa-859d-dd1cd3e38b4a" />
+
 Windows-first desktop OCR translator built with **C# / .NET 8 / WPF**. Select any region on the screen, recognize its text locally with Windows OCR, and translate the result in a lightweight floating window.
 
 ## Features
