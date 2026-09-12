@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcrTranslator", "OcrTranslator.csproj", "{23AD769A-7CFB-039F-A6DC-B1386DCEF066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23AD769A-7CFB-039F-A6DC-B1386DCEF066}.Debug|x64.ActiveCfg = Debug|x64
+		{23AD769A-7CFB-039F-A6DC-B1386DCEF066}.Debug|x64.Build.0 = Debug|x64
+		{23AD769A-7CFB-039F-A6DC-B1386DCEF066}.Release|x64.ActiveCfg = Release|x64
+		{23AD769A-7CFB-039F-A6DC-B1386DCEF066}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4EF36D-A005-4DA8-BBA1-8D2EC4CC8A6E}
+	EndGlobalSection
+EndGlobal

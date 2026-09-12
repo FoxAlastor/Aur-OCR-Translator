@@ -1,0 +1,73 @@
+<Window x:Class="OcrTranslator.UI.ResultOverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True" ShowInTaskbar="False" ResizeMode="CanResize"
+        Width="560" Height="430" MinWidth="420" MinHeight="320"
+        KeyDown="WindowKeyDown" PreviewMouseLeftButtonDown="WindowPreviewMouseLeftButtonDown">
+    <shell:WindowChrome.WindowChrome>
+        <shell:WindowChrome CaptionHeight="0" ResizeBorderThickness="8" GlassFrameThickness="0" UseAeroCaptionButtons="False"/>
+    </shell:WindowChrome.WindowChrome>
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#252830"/>
+            <Setter Property="Foreground" Value="#F1F4F8"/>
+            <Setter Property="BorderBrush" Value="#3A414D"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#303640"/>
+            <Setter Property="Foreground" Value="#F1F4F8"/>
+            <Setter Property="BorderBrush" Value="#4B5563"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="Margin" Value="3,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="ButtonBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="ButtonBorder" Property="Background" Value="#252A33"/><Setter TargetName="ButtonBorder" Property="BorderBrush" Value="#566274"/></Trigger>
+                            <Trigger Property="IsPressed" Value="True"><Setter TargetName="ButtonBorder" Property="Background" Value="#1D2128"/></Trigger>
+                            <Trigger Property="IsEnabled" Value="False"><Setter TargetName="ButtonBorder" Property="Opacity" Value="0.5"/></Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Border Background="#F21B1D22" CornerRadius="12" Padding="14" BorderBrush="#536FA8FF" BorderThickness="1">
+        <Grid x:Name="ContentGrid">
+            <Grid.LayoutTransform><ScaleTransform x:Name="ContentScale" ScaleX="1" ScaleY="1"/></Grid.LayoutTransform>
+            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+            <Grid Grid.Row="0" Margin="0,0,0,10">
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBlock Text="Aur OCR Translator" Foreground="White" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Button Content="−" Width="34" Height="30" Click="ZoomOut" ToolTip="Зменшити масштаб"/>
+                    <TextBlock x:Name="ZoomLabel" Text="100%" Width="52" Foreground="#C8D1DE" VerticalAlignment="Center" TextAlignment="Center"/>
+                    <Button Content="+" Width="34" Height="30" Click="ZoomIn" ToolTip="Збільшити масштаб"/>
+                    <Button Content="Pin" x:Name="PinButton" Width="92" Height="34" Click="Pin" Margin="12,0,3,0"/>
+                    <Button Content="Close" Width="68" Height="34" Click="CloseWindow" Margin="3,0,0,0"/>
+                </StackPanel>
+            </Grid>
+            <TextBox x:Name="RecognizedText" Grid.Row="1" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Margin="0,0,0,10" TextChanged="TextChanged"/>
+            <TextBox x:Name="TranslatedText" Grid.Row="2" TextWrapping="Wrap" IsReadOnly="True" VerticalScrollBarVisibility="Auto" Margin="0,0,0,10"/>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <Button Content="Copy" Width="70" Click="Copy"/>
+                    <Button Content="Re-Translate" Width="104" Click="ReTranslate"/>
+                    <Button Content="Re-select" Width="86" Click="Reselect"/>
+                </StackPanel>
+                <TextBlock x:Name="Status" Grid.Column="1" Foreground="#B7C6D8" VerticalAlignment="Center" HorizontalAlignment="Right" TextTrimming="CharacterEllipsis" Margin="12,0,0,0"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,20 @@
+﻿OcrTranslator
+
+
+winexe
+C#
+.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\
+OcrTranslator
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+A:\Other\Prog\Manus\OCR Translate\App.xaml
+4-693470085
+
+10-483045150
+209280936996
+MainWindow.xaml;UI\RegionSelectorWindow.xaml;UI\ResultOverlayWindow.xaml;UI\SettingsWindow.xaml;
+
+False
+

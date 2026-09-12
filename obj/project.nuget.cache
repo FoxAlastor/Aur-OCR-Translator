@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i9+zAg0tkhY=",
+  "success": true,
+  "projectFilePath": "A:\\Other\\Prog\\Project\\Visual Studio\\OCR Translate\\OcrTranslator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ulian\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.0\\system.security.cryptography.protecteddata.10.0.0.nupkg.sha512",
+    "C:\\Users\\ulian\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.26100.57\\microsoft.windows.sdk.net.ref.10.0.26100.57.nupkg.sha512"
+  ],
+  "logs": []
+}
