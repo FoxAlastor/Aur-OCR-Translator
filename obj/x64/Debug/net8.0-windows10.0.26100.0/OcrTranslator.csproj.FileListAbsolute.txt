@@ -1,0 +1,62 @@
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.csproj.AssemblyReference.cache
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\MainWindow.baml
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\RegionSelectorWindow.baml
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\ResultOverlayWindow.baml
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\SettingsWindow.baml
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\App.baml
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\MainWindow.g.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\RegionSelectorWindow.g.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\ResultOverlayWindow.g.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\SettingsWindow.g.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\App.g.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator_MarkupCompile.cache
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.g.resources
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.GeneratedMSBuildEditorConfig.editorconfig
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.AssemblyInfoInputs.cache
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.AssemblyInfo.cs
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.csproj.CoreCompileInputs.cache
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.exe
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.deps.json
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.runtimeconfig.json
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.dll
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.pdb
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\System.Security.Cryptography.ProtectedData.dll
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\Microsoft.Windows.SDK.NET.dll
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\WinRT.Runtime.dll
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTrans.9C5545BD.Up2Date
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.dll
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\refint\OcrTranslator.dll
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.pdb
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.genruntimeconfig.cache
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\ref\OcrTranslator.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.exe
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.deps.json
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.runtimeconfig.json
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.pdb
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\System.Security.Cryptography.ProtectedData.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\Microsoft.Windows.SDK.NET.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\WinRT.Runtime.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.csproj.AssemblyReference.cache
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\MainWindow.baml
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\RegionSelectorWindow.baml
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\ResultOverlayWindow.baml
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\SettingsWindow.baml
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\App.baml
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\MainWindow.g.cs
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\RegionSelectorWindow.g.cs
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\ResultOverlayWindow.g.cs
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\UI\SettingsWindow.g.cs
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\App.g.cs
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator_MarkupCompile.cache
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.g.resources
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.GeneratedMSBuildEditorConfig.editorconfig
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.AssemblyInfoInputs.cache
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.AssemblyInfo.cs
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.csproj.CoreCompileInputs.cache
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTrans.9C5545BD.Up2Date
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\refint\OcrTranslator.dll
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.pdb
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.genruntimeconfig.cache
+A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\ref\OcrTranslator.dll
