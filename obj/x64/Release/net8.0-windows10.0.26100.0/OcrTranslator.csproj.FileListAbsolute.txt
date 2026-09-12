@@ -29,3 +29,5 @@ A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\ref
 A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\OcrTranslator.pdb
 A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\OcrTranslator.genruntimeconfig.cache
 A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\ref\OcrTranslator.dll
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\OcrTranslator.sourcelink.json
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Release\net8.0-windows10.0.26100.0\OcrTranslator_Content.g.cs

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Other\\Prog\\Project\\Visual Studio\\OCR Translate\\OcrTranslator.csproj": {}
+    "A:\\Other\\Prog\\Manus\\OCR Translate\\OcrTranslator.csproj": {}
   },
   "projects": {
-    "A:\\Other\\Prog\\Project\\Visual Studio\\OCR Translate\\OcrTranslator.csproj": {
+    "A:\\Other\\Prog\\Manus\\OCR Translate\\OcrTranslator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Other\\Prog\\Project\\Visual Studio\\OCR Translate\\OcrTranslator.csproj",
+        "projectUniqueName": "A:\\Other\\Prog\\Manus\\OCR Translate\\OcrTranslator.csproj",
         "projectName": "OcrTranslator",
-        "projectPath": "A:\\Other\\Prog\\Project\\Visual Studio\\OCR Translate\\OcrTranslator.csproj",
+        "projectPath": "A:\\Other\\Prog\\Manus\\OCR Translate\\OcrTranslator.csproj",
         "packagesPath": "C:\\Users\\ulian\\.nuget\\packages\\",
-        "outputPath": "A:\\Other\\Prog\\Project\\Visual Studio\\OCR Translate\\obj\\",
+        "outputPath": "A:\\Other\\Prog\\Manus\\OCR Translate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "A:\\Programm\\VC SDK\\NuGetPackages"

@@ -3,6 +3,7 @@ using System.Windows.Input;
 using OcrTranslator.Core;
 using OcrTranslator.Models;
 using WpfKeyEventArgs = System.Windows.Input.KeyEventArgs;
+using static System.Windows.Media.ScaleTransform;
 
 namespace OcrTranslator.UI;
 

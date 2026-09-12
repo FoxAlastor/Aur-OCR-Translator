@@ -31,7 +31,7 @@ public partial class App : System.Windows.Application
         base.OnStartup(e);
         _main = new MainWindow();
         _main.Hide();
-        _tray = new Forms.NotifyIcon { Icon = System.Drawing.SystemIcons.Application, Visible = true, Text = "Aur OCR Translator" };
+        _tray = new Forms.NotifyIcon { Icon = new System.Drawing.Icon("OCR Translate2.ico"), Visible = true, Text = "Aur OCR Translator" };
         var menu = new Forms.ContextMenuStrip();
         menu.Items.Add("Capture Now", null, (_, _) => CaptureNow());
         menu.Items.Add("Settings", null, (_, _) => new SettingsWindow(Config).ShowDialog());

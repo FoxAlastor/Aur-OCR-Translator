@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OcrTranslator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+244d3b9a7cf2f2ff1cfee55cc229d913e793fbe4")]
 [assembly: System.Reflection.AssemblyProductAttribute("OcrTranslator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OcrTranslator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

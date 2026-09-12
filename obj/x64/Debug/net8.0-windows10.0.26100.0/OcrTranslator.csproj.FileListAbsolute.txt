@@ -60,3 +60,6 @@ A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10
 A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.pdb
 A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.genruntimeconfig.cache
 A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\ref\OcrTranslator.dll
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator.sourcelink.json
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\OcrTranslator_Content.g.cs
+A:\Other\Prog\Manus\OCR Translate\bin\x64\Debug\net8.0-windows10.0.26100.0\OCR Translate2.ico

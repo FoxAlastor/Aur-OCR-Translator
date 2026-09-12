@@ -4,14 +4,14 @@
 winexe
 C#
 .cs
-A:\Other\Prog\Project\Visual Studio\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\
+A:\Other\Prog\Manus\OCR Translate\obj\x64\Debug\net8.0-windows10.0.26100.0\
 OcrTranslator
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-A:\Other\Prog\Project\Visual Studio\OCR Translate\App.xaml
+A:\Other\Prog\Manus\OCR Translate\App.xaml
 4-693470085
-
+1-19148853
 10-1557383872
 209280936996
 MainWindow.xaml;UI\RegionSelectorWindow.xaml;UI\ResultOverlayWindow.xaml;UI\SettingsWindow.xaml;
