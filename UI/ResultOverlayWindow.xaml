@@ -62,6 +62,7 @@
             <Grid Grid.Row="3">
                 <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <Button Content="Copy OCR" Width="86" Click="CopyOcr"/>
                     <Button Content="Copy" Width="70" Click="Copy"/>
                     <Button Content="Re-Translate" Width="104" Click="ReTranslate"/>
                     <Button Content="Re-select" Width="86" Click="Reselect"/>

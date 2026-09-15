@@ -12,7 +12,7 @@ public partial class App : System.Windows.Application
     public ConfigService Config { get; } = new();
     public ScreenCaptureService Capture { get; } = new();
     public WindowsOcrProvider Ocr { get; } = new();
-    public ITranslationProvider Translator { get; }
+    public ITranslationProvider Translator { get; private set; } = null!;
     private Forms.NotifyIcon? _tray;
     private MainWindow? _main;
     private const int HotkeyId = 701;
@@ -23,7 +23,15 @@ public partial class App : System.Windows.Application
     public App()
     {
         Config.Load();
-        Translator = new DeepLTranslationProvider(new HttpClient { Timeout = TimeSpan.FromSeconds(15) }, Config.GetApiKey);
+        RefreshTranslator();
+    }
+
+    public void RefreshTranslator()
+    {
+        var http = new HttpClient { Timeout = TimeSpan.FromSeconds(15) };
+        Translator = string.Equals(Config.Current.TranslationProvider, "Google", StringComparison.OrdinalIgnoreCase)
+            ? new GoogleTranslationProvider(http, Config.GetGoogleApiKey)
+            : new DeepLTranslationProvider(http, Config.GetApiKey);
     }
 
     protected override void OnStartup(StartupEventArgs e)

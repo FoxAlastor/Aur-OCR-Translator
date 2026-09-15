@@ -73,9 +73,12 @@ public partial class ResultOverlayWindow : Window
         result.Show(); Close();
     }
 
-    private void Copy(object sender, RoutedEventArgs e)
+    private void Copy(object sender, RoutedEventArgs e) => CopyText(TranslatedText.Text, "Copied translation");
+
+    private void CopyOcr(object sender, RoutedEventArgs e) => CopyText(RecognizedText.Text, "Copied OCR text");
+
+    private void CopyText(string text, string successStatus)
     {
-        var text = TranslatedText.Text;
         if (string.IsNullOrWhiteSpace(text)) return;
 
         for (var attempt = 0; attempt < 10; attempt++)
@@ -93,7 +96,7 @@ public partial class ResultOverlayWindow : Window
                         if (SetClipboardData(13u, handle) != nint.Zero)
                         {
                             handle = nint.Zero;
-                            Status.Text = "Copied";
+                            Status.Text = successStatus;
                             return;
                         }
                     }

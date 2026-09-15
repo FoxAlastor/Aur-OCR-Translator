@@ -31,5 +31,12 @@ public partial class RegionSelectorWindow : Window
         Canvas.SetLeft(Selection, x); Canvas.SetTop(Selection, y); Selection.Width = w; Selection.Height = h; Canvas.SetLeft(SizeLabel, x + 8); Canvas.SetTop(SizeLabel, Math.Max(0, y - 32)); SizeLabel.Text = $"{w:0} × {h:0}";
         Region = new CaptureRegion((int)(Left + x), (int)(Top + y), (int)w, (int)h);
     }
-    private void OnKeyDown(object sender, WpfKeyEventArgs e) { if (e.Key == Key.Escape) { DialogResult = false; Close(); } }
+    private void OnKeyDown(object sender, WpfKeyEventArgs e)
+    {
+        if (e.Key != Key.Escape) return;
+        if (IsMouseCaptured) ReleaseMouseCapture();
+        DialogResult = false;
+        e.Handled = true;
+        Close();
+    }
 }

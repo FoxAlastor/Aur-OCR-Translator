@@ -10,8 +10,8 @@ Windows-first desktop OCR translator built with **C# / .NET 8 / WPF**. Select an
 - Multi-monitor region selector with Escape cancellation.
 - In-memory screen capture without saving screenshots by default.
 - Windows OCR with Ukrainian, English, and Russian language-code mapping.
-- DeepL translation with automatic source-language detection.
-- Editable recognized text and `Re-Translate` for corrected text.
+- Selectable DeepL or Google Cloud Translation provider with automatic source-language detection.
+- Editable recognized text, `Copy OCR`, and `Re-Translate` for corrected text.
 - Floating result window with copy, re-selection, pin/unpin, zoom, resizing, and dark theme.
 - System tray menu for capture, settings, and exit.
 - DPAPI-protected DeepL API key storage for the current Windows user.
@@ -23,6 +23,7 @@ Windows-first desktop OCR translator built with **C# / .NET 8 / WPF**. Select an
 - Windows SDK reference pack matching `10.0.26100.0` or a compatible newer SDK.
 - Windows OCR language components for the languages you want to recognize.
 - A DeepL API key for cloud translation.
+- Or a Google Cloud Translation API key with the Cloud Translation API enabled.
 
 ## Build
 
@@ -45,11 +46,11 @@ The repository includes a GitHub Actions workflow that restores and builds the p
 
 1. Start `OcrTranslator.exe`.
 2. Open the tray icon menu and select **Settings**.
-3. Enter the DeepL API key and choose the target language. Use `UK` for Ukrainian, `EN` for English, or another DeepL language code.
-4. Press `Ctrl+Shift+T`, select a screen region, and wait for OCR and translation.
+3. Choose DeepL or Google and enter the corresponding API key. Use `UK` for Ukrainian, `EN` for English, or another supported language code.
+4. Press `Ctrl+Shift+T`, select a screen region, and wait for OCR and translation. Press `Esc` to cancel selection.
 5. Edit the recognized text if needed, then press **Re-Translate**.
 
-The API key is stored locally using Windows DPAPI with `CurrentUser` scope. Captured images are kept in memory and are not written to disk by default. Recognized text is sent to DeepL when translation is requested.
+The selected provider's API key is stored locally using Windows DPAPI with `CurrentUser` scope. Captured images are kept in memory and are not written to disk by default. Recognized text is sent to the selected provider when translation is requested.
 
 ## Windows OCR and packaging
 

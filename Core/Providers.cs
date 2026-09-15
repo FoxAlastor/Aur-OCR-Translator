@@ -36,3 +36,29 @@ public sealed class DeepLTranslationProvider(HttpClient http, Func<string?> getK
         return json.RootElement.GetProperty("translations")[0].GetProperty("text").GetString() ?? "";
     }
 }
+
+public sealed class GoogleTranslationProvider(HttpClient http, Func<string?> getKey) : ITranslationProvider
+{
+    public async Task<string> TranslateAsync(string text, string sourceLanguage, string targetLanguage, CancellationToken cancellationToken)
+    {
+        var key = getKey();
+        if (string.IsNullOrWhiteSpace(key)) return "Вкажіть Google Cloud API-ключ у Settings.";
+        var body = new Dictionary<string, object?>
+        {
+            ["q"] = new[] { text },
+            ["target"] = targetLanguage.ToLowerInvariant(),
+            ["format"] = "text"
+        };
+        if (!string.IsNullOrWhiteSpace(sourceLanguage)) body["source"] = sourceLanguage.ToLowerInvariant();
+        using var request = new HttpRequestMessage(HttpMethod.Post, $"https://translation.googleapis.com/language/translate/v2?key={Uri.EscapeDataString(key)}")
+        {
+            Content = JsonContent.Create(body)
+        };
+        using var response = await http.SendAsync(request, cancellationToken);
+        var payload = await response.Content.ReadAsStringAsync(cancellationToken);
+        if (!response.IsSuccessStatusCode)
+            throw new InvalidOperationException($"Google Translate {((int)response.StatusCode)}: {payload}");
+        using var json = JsonDocument.Parse(payload);
+        return json.RootElement.GetProperty("data").GetProperty("translations")[0].GetProperty("translatedText").GetString() ?? "";
+    }
+}

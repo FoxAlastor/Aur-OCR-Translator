@@ -26,9 +26,20 @@ public sealed class ConfigService
         try { return Encoding.UTF8.GetString(ProtectedData.Unprotect(Convert.FromBase64String(Current.DeepLApiKeyProtected), null, DataProtectionScope.CurrentUser)); }
         catch { return null; }
     }
+    public string? GetGoogleApiKey()
+    {
+        if (string.IsNullOrWhiteSpace(Current.GoogleApiKeyProtected)) return null;
+        try { return Encoding.UTF8.GetString(ProtectedData.Unprotect(Convert.FromBase64String(Current.GoogleApiKeyProtected), null, DataProtectionScope.CurrentUser)); }
+        catch { return null; }
+    }
     public void SetApiKey(string value)
     {
         var bytes = ProtectedData.Protect(Encoding.UTF8.GetBytes(value), null, DataProtectionScope.CurrentUser);
         Current.DeepLApiKeyProtected = Convert.ToBase64String(bytes);
+    }
+    public void SetGoogleApiKey(string value)
+    {
+        var bytes = ProtectedData.Protect(Encoding.UTF8.GetBytes(value), null, DataProtectionScope.CurrentUser);
+        Current.GoogleApiKeyProtected = Convert.ToBase64String(bytes);
     }
 }
